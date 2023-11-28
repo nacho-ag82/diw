@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input {
+            margin: 0 auto;
+            font-size: 20px;
+           
+        }
+        
+        .botones{
+
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+            
+            
+        }
+        a,input{
+            height: 1.5em;
+            margin-top: 20%;
+            border-style: outset;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+       
+        a {
+            border: 1px solid grey;
+            border-radius: 2px;
+            color: black;
+            text-decoration: none;
+            background-color: rgb(241, 239, 239);
+            padding:1px;
+            font-size: 20px;
+            margin-right: 20px;
+            
+        }
+        p{
+            display: none;
+            color: white;
+        }
+        input:focus +p{
+            display: block;
+            border-color: 10px solid red;
+        }
+        a:hover {
+            background-color: rgb(226, 223, 223);
+        }
+
+        input:hover {
+            transform: translateY(+50px);
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <link rel="icon" type="image/jpg" href="/HomeServer_icon-icons.com_55232.ico"/>
+    <div class="botones">
+        <a href="inicio.html">Aprende a montar un servidor</a><input type="button" value="Monta un servidor web en un click">
+        <p>ESTO NO ES UNA WEB PARA VAGOS</p>
+    </div>
+</body>
+
+</html>

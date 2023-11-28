@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+header {
+    width: 100%;
+    background-color: rgb(96, 5, 119);
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+nav.menuHorizontal {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(123, 43, 143);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+li {
+    position: relative;
+
+}
+li>img {
+    margin: 5vw auto;
+    border: .2vw solid rgb(26, 179, 179);
+    height: 10vw;
+    padding: 1vw;
+    border-radius: 30px;
+    background-color: rgb(174, 245, 245);
+}
+a {
+    display: block;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: rgb(96, 5, 119);
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(123, 43, 143);
+    border: 1px solid rgb(12, 12, 133);
+}
+
+ul>li:hover>ul {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2em;
+    color: rgb(96, 5, 119);
+}
+
+p {
+    text-align: center;
+    margin: 2em 0;
+}
+
+h2,
+h3 {
+    color: rgb(96, 5, 119);
+    margin-top: 1.5em;
+}
+
+footer {
+    background-color: rgb(96, 5, 119);
+    color: whitesmoke;
+    display: inline;
+    bottom: 0;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+main{
+    position: relative;
+}
+
+.iconos{
+    display: flex ;
+    width: 100px;
+}
